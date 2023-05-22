@@ -20,15 +20,18 @@ This repository contains a Flask application that provides clothing recommendati
   cd clothing_similarity_search
   ```
 3. Set up a virtual environment and activate it:
+  ```shell
   python3 -m venv venv
 ` source venv/bin/activate
-
+  ```
 4. Install required packages
+  ```shell
   pip install -r requirements.txt
-  
+  ```
 5. To run it locally
+  ```shell
   python main.py
-  
+  ```
 ## Deployment to Google Cloud Functions
 1. Create a new project in the Google Cloud Console. Note down the project ID.
 
