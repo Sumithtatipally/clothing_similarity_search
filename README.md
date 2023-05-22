@@ -16,8 +16,9 @@ This repository contains a Flask application that provides clothing recommendati
    git clone https://github.com/sumithtatipally/clothing_similarity_search.git
  ```
 2. Navigate to the project directory:
+ ```shell
   cd clothing_similarity_search
-  
+  ```
 3. Set up a virtual environment and activate it:
   python3 -m venv venv
 ` source venv/bin/activate
