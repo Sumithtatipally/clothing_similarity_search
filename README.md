@@ -61,7 +61,7 @@ Copy code
   "search_keyword": "Red t-shirts",
 }
 ```
-Replace your_search_keyword with the desired keyword for product search and 5 with the desired number of results to return.
+Replace your_search_keyword with the desired keyword for product search it will return top 5 similar products.
 
 
 ## Contributing
