@@ -42,11 +42,13 @@ This repository contains a Flask application that provides clothing recommendati
 2. Enable the Cloud Functions API for your project. In the Cloud Console, navigate to APIs & Services > Library and search for "Cloud Functions".
 
 3. Set the Google Cloud project ID
+```shell
   gcloud config set project your-project-id
-  
+  ```
 4. Deploy the code to Google Cloud Functions:
+```shell
   gcloud functions deploy myntra-recommendations --runtime python310 --trigger-http --allow-unauthenticated --entry-point get_recommendations
-
+```
 
 ## Usage
 To get clothing recommendations, send a POST request to the Cloud Function's URL with the following JSON payload:
