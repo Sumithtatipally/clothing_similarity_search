@@ -43,7 +43,8 @@ This repository contains a Flask application that provides clothing recommendati
 4. Deploy the code to Google Cloud Functions:
   gcloud functions deploy myntra-recommendations --runtime python310 --trigger-http --allow-unauthenticated --entry-point get_recommendations
 
-Usage
+
+## Usage
 To get clothing recommendations, send a POST request to the Cloud Function's URL with the following JSON payload:
 
 json
@@ -55,5 +56,6 @@ Copy code
 Replace your_search_keyword with the desired keyword for product search and 5 with the desired number of results to return.
 
 
-Contributing
+## Contributing
+
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
