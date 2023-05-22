@@ -4,7 +4,8 @@ The goal of this project is to create a machine learning model capable of receiv
 This repository contains a Flask application that provides clothing recommendations based on search keywords using cosine similarity with BERT embeddings. The application is deployed on Google Cloud Functions.
 
 ## App link
-  [Click Here](https://github.com/Sumithtatipally/clothing_similarity_streamlitapp) 
+  Streamlit App - [Click Here](https://sumithtatipally-clothing-similarity-stream-cloth-sim-app-lkjwy4.streamlit.app/) </br>
+  Code - [Git repo](https://github.com/Sumithtatipally/clothing_similarity_streamlitapp) 
 
 ## Prerequisites
 
