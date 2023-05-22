@@ -22,7 +22,7 @@ This repository contains a Flask application that provides clothing recommendati
 3. Set up a virtual environment and activate it:
   ```shell
   python3 -m venv venv
-` source venv/bin/activate
+  source venv/bin/activate
   ```
 4. Install required packages
   ```shell
