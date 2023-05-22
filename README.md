@@ -52,13 +52,15 @@ This repository contains a Flask application that provides clothing recommendati
 
 ## Usage
 To get clothing recommendations, send a POST request to the Cloud Function's URL with the following JSON payload:
+<img width="1067" alt="Screenshot 2023-05-23 at 12 31 01 AM" src="https://github.com/Sumithtatipally/clothing_similarity_search/assets/40519200/060c08b7-f44c-4229-9d47-555e12b1be25">
 
 json
 Copy code
+```shell
 {
-  "search_keyword": "your_search_keyword",
-  "top_n": 5
+  "search_keyword": "Red t-shirts",
 }
+```
 Replace your_search_keyword with the desired keyword for product search and 5 with the desired number of results to return.
 
 
