@@ -47,7 +47,7 @@ This repository contains a Flask application that provides clothing recommendati
   ```
 4. Deploy the code to Google Cloud Functions:
 ```shell
-  gcloud functions deploy myntra-recommendations --runtime python310 --trigger-http --allow-unauthenticated --entry-point get_recommendations
+  gcloud functions deploy clothingsimilarity --runtime python310 --trigger-http --allow-unauthenticated --entry-point get_recommendations
 ```
 
 ## Usage
